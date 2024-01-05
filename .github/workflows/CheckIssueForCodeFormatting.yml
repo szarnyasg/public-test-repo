@@ -11,14 +11,15 @@ jobs:
   check_code_formatting:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - name: Set up Python 3.11
         uses: actions/setup-python@v4
         with:
           python-version: '3.11'  
       - name: Check issue for code formatting
         run: |
-          ls -ls
-          pwd
           if ! echo "${{ github.event.issue.body }}" | python3 scripts/check-issue-for-code-formatting.py; then
               gh issue comment ${{ github.event.issue.number }} --body-file .github/workflows/code-formatting-warning.md
           fi
