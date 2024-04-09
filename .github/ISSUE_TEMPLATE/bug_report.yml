@@ -118,15 +118,3 @@ body:
       options:
         - label: Yes, I have
           required: true
-
-  - type: dropdown
-    attributes:
-      label: Did you include all relevant data sets for reproducing the issue?
-      options:
-        - Yes
-        - No - I cannot share the data sets because it is confidential
-        - No - I cannot share my data sets due to its large size
-        - No - Other reason (please specify in the issue body)
-        - Not applicable (reproduction does not rely on a specific data set)
-    validations:
-      required: true
