@@ -122,10 +122,10 @@ body:
     attributes:
       label: Did you include all relevant data sets for reproducing the issue?
       options:
-        - "Yes"
-        - "No - I cannot share the data sets because it is confidential"
-        - "No - I cannot share my data sets due to its large size"
         - "No - Other reason (please specify in the issue body)"
+        - "No - I cannot share the data sets because it is confidential"
+        - "No - I cannot easily share my data sets due to their large size"
         - "Not applicable - the reproduction does not require a data set"
+        - "Yes"
     validations:
       required: true
