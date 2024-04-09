@@ -109,7 +109,8 @@ body:
       label: Did you include all code required to reproduce the issue?
       options:
         - label: Yes, I have
-          required: true
+    validations:
+      required: true
 
   - type: dropdown
     attributes:
