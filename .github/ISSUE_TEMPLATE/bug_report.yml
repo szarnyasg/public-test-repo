@@ -93,15 +93,14 @@ body:
 
   - type: dropdown
     attributes:
-      label: Have you tried this on the latest [nightly build](https://duckdb.org/docs/installation/?version=main)?
+      label: Which was the latest build you tested with? If possible, we recommend testing with the latest nightly build before submitting issues.
       description: |
-        * **Python**: `pip install duckdb --upgrade --pre`
-        * **R**: `install.packages('duckdb', repos=c('https://duckdb.r-universe.dev', 'https://cloud.r-project.org'))`
-        * **Other Platforms**: You can find links to binaries [here](https://duckdb.org/docs/installation/) or compile from source.
+        Visit the [installation page](https://duckdb.org/docs/installation/) for instructions.
       options:
-        - I have tested with a nightly build
-        - I have tested with a release build (and could not test with a nightly build)
         - I have not tested with any build
+        - I have tested with a stable release
+        - I have tested with a nightly build
+        - I have tested with a source build
     validations:
       required: true
 
