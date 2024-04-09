@@ -104,6 +104,13 @@ body:
     validations:
       required: true
 
+  - type: checkboxes
+    attributes:
+      label: Did you include all code required to reproduce the issue?
+      options:
+        - label: Yes, I have
+          required: true
+
   - type: dropdown
     attributes:
       label: Did you include all relevant data sets for reproducing the issue?
