@@ -113,7 +113,7 @@ body:
         - "No - I cannot easily share my data sets due to their large size"
         - "No - I cannot share the data sets because it is confidential"
         - "No - Other reason (please specify in the issue body)"
-      default: "No - Other reason (please specify in the issue body)"
+      default: 4
     validations:
       required: true
 
