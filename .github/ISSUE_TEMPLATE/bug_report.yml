@@ -89,11 +89,11 @@ body:
       value: |
         If the above is not given and is not obvious from your GitHub profile page, we might close your issue without further review. Please refer to the [reasoning behind this rule](https://berthub.eu/articles/posts/anonymous-help/) if you have questions.
 
-        # Before Submitting
+        # Before Submitting:
 
   - type: dropdown
     attributes:
-      label: Which was the latest build you tested with? If possible, we recommend testing with the latest nightly build before submitting issues.
+      label: What is the latest build you tested with? If possible, we recommend testing with the latest nightly build.
       description: |
         Visit the [installation page](https://duckdb.org/docs/installation/) for instructions.
       options:
