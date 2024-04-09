@@ -109,10 +109,10 @@ body:
       label: Did you include all relevant data sets for reproducing the issue?
       options:
         - "No - Other reason (please specify in the issue body)"
-        - "Yes"
-        - "Not applicable - the reproduction does not require a data set"
+        - "No - I cannot share the data sets because they are confidential"
         - "No - I cannot easily share my data sets due to their large size"
-        - "No - I cannot share the data sets because it is confidential"
+        - "Not applicable - the reproduction does not require a data set"
+        - "Yes"
       default: 0
     validations:
       required: true
